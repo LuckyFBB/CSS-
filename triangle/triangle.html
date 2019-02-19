@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>三角形</title>
+  <style type="text/css" media="screen">
+    .triangle1{
+      height: 0;
+      width: 0;
+      border-left: 20px solid transparent;
+      border-right: 40px solid transparent;
+      border-top: 30px solid red;
+    }
+    .triangle2{
+      height: 0;
+      width: 0;
+      border-left: 20px solid red;
+      border-bottom: 40px solid transparent;
+      border-top: 30px solid transparent;
+    }
+    .triangle3{
+      height: 0;
+      width: 0;
+      border-left: 20px solid transparent;
+      border-right: 40px solid transparent;
+      border-bottom: 30px solid red;
+    }
+    .trapezoidal{
+      width: 100px;
+      border-left: 20px solid transparent;
+      border-right: 40px solid transparent;
+      border-bottom: 30px solid red;
+    }
+    .quadrilateral{
+      height: 100px;
+      width: 100px;
+      transform: skewX(-45deg);
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="triangle1"></div>
+  <br>
+  <div class="triangle2"></div>
+  <br>
+  <div class="triangle3"></div>
+  <br>
+  <div class="trapezoidal"></div>
+  <br>
+  <div class="quadrilateral"></div>
+  <script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+var x=0;
+function test(){
+  console.log(this.x)
+}
+var obj={
+  x:1
+};
+test.apply();     //0
+test.apply(obj);  //1
+  </script>
+</body>
+</html>
