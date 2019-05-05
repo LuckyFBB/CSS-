@@ -10,3 +10,12 @@
 2.使用box-sizing:border-box,改变盒模型，将border算入width中。  
 3.使用css选择器改变第一列的左边距。  
 4.使用z-index来控制高层级。
+
+#### [瀑布流](https://github.com/LuckyFBB/CSS-Effect/tree/master/Masonry-Layouts)  
+实现瀑布流。
+解题思路
+1.使用flex布局，五列，不会随着宽度大小改变。
+2.使用columns布局，使用columns-count随着屏幕大小改变列数。
+
+#### [三角形](https://github.com/LuckyFBB/CSS-Effect/tree/master/triangle)
+使用css实现三角形/梯形/平行四边形。
