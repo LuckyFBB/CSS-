@@ -1,0 +1,47 @@
+.item {
+  display: block;
+  padding: 10px 0;
+}
+
+.element1 {
+  width: 200px;
+  height: 200px;
+  background-color: lightpink;
+  border-radius: 50%;
+}
+
+.child1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.element2 {
+  width: 200px;
+  height: 200px;
+  background-color: lightpink;
+  border-radius: 50%;
+}
+
+.element2:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.element3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 50px solid lightpink;
+}

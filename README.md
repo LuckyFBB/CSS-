@@ -19,3 +19,7 @@
 
 #### [三角形](https://github.com/LuckyFBB/CSS-Effect/tree/master/triangle)
 使用css实现三角形/梯形/平行四边形。
+
+#### [三角形](https://github.com/LuckyFBB/CSS-Effect/tree/master/annulus)
+使用css环形。
+采用标签嵌套/伪元素/border实现。
