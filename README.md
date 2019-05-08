@@ -23,3 +23,7 @@
 #### [三角形](https://github.com/LuckyFBB/CSS-Effect/tree/master/annulus)
 使用css环形。
 采用标签嵌套/伪元素/border实现。
+
+#### [三角提醒框](https://github.com/LuckyFBB/CSS-Effect/tree/master/triangular-frame)
+使用css三角提醒框。
+采用伪元素和border实现。
