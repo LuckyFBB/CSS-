@@ -21,9 +21,13 @@
 使用css实现三角形/梯形/平行四边形。
 
 #### [三角形](https://github.com/LuckyFBB/CSS-Effect/tree/master/annulus)
-使用css环形。
+使用css实现环形。
 采用标签嵌套/伪元素/border实现。
 
 #### [三角提醒框](https://github.com/LuckyFBB/CSS-Effect/tree/master/triangular-frame)
-使用css三角提醒框。
+使用css实现三角提醒框。
 采用伪元素和border实现。
+
+#### [CSS轮播图](https://github.com/LuckyFBB/CSS-Effect/tree/master/carousel-css)
+使用css实现轮播图。
+使用animation实现，最后将第一张图片放置最后做过渡。
